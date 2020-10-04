@@ -1,0 +1,15 @@
+@import 'styles/fonts';
+@import 'styles/colors';
+@import 'styles/shared';
+.sectionHeader{
+    padding: 1rem 0;
+    font-family: $font-family;
+    .sectionHeader__header{
+        @extend %fadeInUp;
+        color: $web-black;
+        font-weight: $header-font-weight;
+    }
+    .sectionHeader__header--red{
+        color: $web-red;
+    }
+}
