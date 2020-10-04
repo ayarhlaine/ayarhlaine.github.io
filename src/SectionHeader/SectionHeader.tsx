@@ -7,9 +7,9 @@ interface SectionHeaderProp {
 const SectionHeader: FunctionComponent<SectionHeaderProp> = ({normalText, redText}) => {
     return (
         <div className="sectionHeader">
-            <h2 className="sectionHeader__header">{normalText}
+            <h3 className="sectionHeader__header">{normalText}
             <span className="sectionHeader__header--red">{redText}</span>
-            </h2>
+            </h3>
         </div>
     )
 }
