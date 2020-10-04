@@ -1,0 +1,14 @@
+@import 'styles/colors';
+@import 'styles/fonts';
+.NavBar{
+    background: $web-blue;
+    font-family: $font-family;
+    .nav-link {
+        color: $web-black;
+        font-size: 24px;
+        font-weight: $header-font-weight;
+    }
+    .nav-link__red{
+        color: $web-red;
+    }
+}

@@ -3,31 +3,29 @@
 @import 'styles/shared';
 .banner {
     width: auto;
-    height: 400px;
+    height: 300px;
     background: url('/images/banner.jpg');
     display: flex;
     padding: 0rem 2rem;
-    .bannerLeft {
+    .bannerInnerContainer {
+        height: 100%;
         display: flex;
         flex-direction: column;
         flex: 1;
         justify-content: center;
-        .bannerLeft__header {
+        .bannerInnerContainer__header {
             @extend %fadeInUp;
             font-family: $font-family;
             color: $web-black;
             font-weight: $header-font-weight;
-            .bannerLeft__header__name{
+            .bannerInnerContainer__header__name{
                 color: $web-red;
             }
         }
-        .bannerLeft__text{
+        .bannerInnerContainer__text{
             @extend %fadeInUp;
             font-family: $font-family;
             color: $web-black;
         }
-    }
-    .bannerRight{
-        flex: 1;
     }
 }
